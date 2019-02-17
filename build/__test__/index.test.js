@@ -1,9 +1,7 @@
 "use strict";
 
-var _index = _interopRequireDefault(require("../index"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _index = require("../index");
 
 test('says hello world', function () {
-  return expect((0, _index.default)()).toBe('Hello World');
+  return expect((0, _index.hi)()).toBe('Hello World');
 });

@@ -1,5 +1,5 @@
-import words from '../index'
+import { hi } from '../index'
 
 test('says hello world',() =>(
-    expect(words()).toBe('Hello World')
+    expect(hi()).toBe('Hello World')
 ))
