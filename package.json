@@ -1,0 +1,39 @@
+{
+    "name": "ds-styled",
+    "version": "0.0.1",
+    "description": "Design system for the styled-components library",
+    "main": "build/index.js",
+    "scripts": {
+        "dev": "watch 'npm run build' src",
+        "build": "babel src -d build",
+        "test": "jest",
+        "testing": "npm test -- --watch"
+    },
+    "jest": {
+        "transform": {
+            "^.+\\.jsx?$": "babel-jest"
+        }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mmagdiel/ds-styled.git"
+    },
+    "keywords": [
+        "styled-components",
+        "design system"
+    ],
+    "author": "Magdiel Márquez Hernández",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mmagdiel/ds-styled/issues"
+    },
+    "homepage": "https://github.com/mmagdiel/ds-styled#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.2.3",
+        "@babel/core": "^7.3.3",
+        "@babel/preset-env": "^7.3.1",
+        "babel-jest": "^24.1.0",
+        "jest": "^24.1.0",
+        "watch": "^1.0.2"
+    }
+}
