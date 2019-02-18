@@ -1,6 +1,6 @@
 {
     "name": "ds-styled",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Design system for the styled-components library",
     "main": "build/index.js",
     "scripts": {
