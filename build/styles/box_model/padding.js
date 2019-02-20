@@ -13,8 +13,9 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var defaultValue = 0;
 var pad = (0, _styledComponents.css)(["padding:", ";"], function (props) {
-  return (0, _linear_checker.default)(props.ptop, props.prow, props.pctr, props.pctl, props.pall, 0, 'px ') + (0, _linear_checker.default)(props.prig, props.pcol, props.pctr, props.pcbr, props.pall, 0, 'px ') + (0, _linear_checker.default)(props.pbot, props.prow, props.pcbl, props.pctl, props.pall, 0, 'px ') + (0, _linear_checker.default)(props.plef, props.pcol, props.pcbl, props.pcbr, props.pall, 0, 'px');
+  return (0, _linear_checker.default)(props.ptop, props.prow, props.pctr, props.pctl, props.pall, defaultValue, 'px ') + (0, _linear_checker.default)(props.prig, props.pcol, props.pctr, props.pcbr, props.pall, defaultValue, 'px ') + (0, _linear_checker.default)(props.pbot, props.prow, props.pcbl, props.pctl, props.pall, defaultValue, 'px ') + (0, _linear_checker.default)(props.plef, props.pcol, props.pcbl, props.pcbr, props.pall, defaultValue, 'px');
 });
 pad.propTypes = {
   pall: _propTypes.default.number,
